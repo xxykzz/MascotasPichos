@@ -1,0 +1,22 @@
+{
+  "name": "mascotas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/Styles.scss css/Styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "mdbootstrap": "^4.19.2",
+    "wowjs": "^1.1.3"
+  }
+}
